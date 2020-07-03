@@ -1,15 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import React from 'react';
-import Navbar from './components/Navbar.js';
-import CurrencyConverter from './components/CurrencyConverter';
-import Footer from './components/Footer.js';
+import Navbar from './components/Navbar';
+import Home from './routes/Home';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <CurrencyConverter />
+      <Home />
       <Footer />
     </div>
   );

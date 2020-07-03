@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
 .navbar {
   background-color: #001021;
 }
@@ -7,8 +13,6 @@ a.nav-item.nav-link.active:hover {
 }
 
 .footer {
-  position: fixed;
-  /* left: 0; */
   bottom: 0;
   width: 100%;
   color: #fff;
@@ -20,4 +24,45 @@ a.nav-link {
 
 a.nav-link:hover {
   color: #FFFFAF;
+}
+
+.section-title {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.form-row {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #001021;
+  border-radius: 5px;
+}
+
+small.country-text {
+  color: #FFFFAF;
+}
+
+select.form-control {
+  background-color: #fff;
+}
+
+.convert-icon {
+  color: #fff;
+}
+
+.full-table-container {
+  background-color: #001021;
+  border-radius: 5px;
+}
+
+.table.table-sm {
+  border-radius: 5px
+}
+
+.table-title {
+  font-weight: bold;
+  text-transform: uppercase
 }

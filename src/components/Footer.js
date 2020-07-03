@@ -5,7 +5,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 
 const Footer = () => {
   return (
-    <footer className="navbar footer navbar-expand justify-content-center">
+    <footer className="navbar footer navbar-expand justify-content-center mt-5">
       <a className="nav-link" href="https://twitter.com/jooami1" target="blank">
         <TwitterIcon />
       </a>
