@@ -7,16 +7,6 @@ import Home from './routes/Home';
 import Footer from './components/Footer';
 import HistoryChart from './components/HistoryChart';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <Navbar />
-//       <Home />
-//       <Footer />
-//     </div>
-//   );
-// }
-
 const App = () => {
   return (
     <Router>
